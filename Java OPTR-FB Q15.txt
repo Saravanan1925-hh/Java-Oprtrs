@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double r = sc.nextDouble();
+         double H = sc.nextDouble();
+        double area =2*Math.PI*r*(r+H);
+        double vol=Math.PI*r*r*H;
+        System.out.println(area+" "+vol);
+        sc.close();
+    }
+}

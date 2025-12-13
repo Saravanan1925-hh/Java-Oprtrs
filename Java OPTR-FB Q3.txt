@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double Base=sc.nextDouble();
+        double Height=sc.nextDouble();
+        double Triangle=(1.0/2.0 * Base * Height);
+        System.out.println(Triangle);
+        sc.close();
+    }
+}

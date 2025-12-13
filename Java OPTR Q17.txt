@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a=sc.nextInt();
+        System.out.println((a > 0 && (a & (a - 1))==0?"The given number is power" : "The gven number is not power"));
+        sc.close();
+    }
+}

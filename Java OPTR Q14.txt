@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double num = sc.nextDouble();
+        double cube = num * num * num;
+        System.out.println(cube);
+        sc.close();
+    }
+}
